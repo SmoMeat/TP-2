@@ -22,6 +22,7 @@ class ServeurWeb(http.server.BaseHTTPRequestHandler):
         path = self.path
         if path == '/favicon.ico': return
         if path == '/': path = '/index.html'
+        print(path)
 
         doc = obtenirDocument(path)
 
@@ -33,4 +34,7 @@ class ServeurWeb(http.server.BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         pass
 
-http.server.HTTPServer(('localhost', 3000), ServeurWeb).serve_forever()
+PORT = 3000
+print('Initializing web server...')
+print('Listeninng on port', PORT)
+http.server.HTTPServer(('localhost', PORT), ServeurWeb).serve_forever()

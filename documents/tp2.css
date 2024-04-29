@@ -1,20 +1,60 @@
-#jeu table tr td {
+/*
+	tp2.css - Définit le style de la page tp2.html
+	
+	Dans le cadre du second TP du cours IFT1015, ce fichier permet
+	de styliser une application web du jeu de la cueillette de sous.
+
+	@Date: 29 avril 2024
+	@Author: Mathieu Ducharme
+	@Contact: mathieu.ducharme@umontreal.ca
+	@Matricule: 20297456 
+*/
+
+#msg {
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, -50%);
+	color: red;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#newGame {
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#errors {
+	color: red;
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+}
+
+#coinsLeft {
+	color: red;
+	position: absolute;
+	top: 15%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+}
+
+#grid {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#grid table tr td {
+    color: black;
 	width: 40px;
 	height: 40px;
-    color: black;
-	border: 1px solid black;
 	font-size: 20px;
-	font-family: Helvetica;
 	text-align: center;
 	vertical-align: center;
 }
-.centered {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
- 
- 
-

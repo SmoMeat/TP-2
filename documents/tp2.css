@@ -5,9 +5,8 @@
 	de styliser une application web du jeu de la cueillette de sous.
 
 	@Date: 29 avril 2024
-	@Author: Mathieu Ducharme
-	@Contact: mathieu.ducharme@umontreal.ca
-	@Matricule: 20297456 
+	@Authors: Mathieu Ducharme & Loïc Buisson-Fechter
+	@Contacts: mathieu.ducharme@umontreal.ca & loic.buisson-fechter@umontreal.ca
 */
 
 #msg {
@@ -55,6 +54,4 @@
 	width: 40px;
 	height: 40px;
 	font-size: 20px;
-	text-align: center;
-	vertical-align: center;
 }
